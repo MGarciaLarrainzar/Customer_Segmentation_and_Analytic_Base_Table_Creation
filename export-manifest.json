@@ -1,0 +1,115 @@
+{
+  "exportedWithOptions": {
+    "exportUploads": true,
+    "exportManagedFS": true,
+    "exportAnalysisModels": true,
+    "exportSavedModels": true,
+    "exportManagedFolders": true,
+    "exportModelEvaluationStores": true,
+    "exportProjectResources": true,
+    "exportLabelingTasks": true,
+    "exportAllInputDatasets": true,
+    "exportAllDatasets": true,
+    "exportAllInputManagedFolders": true,
+    "exportGitRepository": false,
+    "exportInsightsData": true,
+    "useManualPluginsInfo": false,
+    "exportSavedModelsRequiredVersions": false,
+    "exportNotebooksWithOutputs": true,
+    "includedDatasetsData": [],
+    "includedSavedModels": [],
+    "includedModelEvaluationStores": [],
+    "includedManagedFolders": [],
+    "includedCodeStudios": [],
+    "includedLabelingTasks": [],
+    "shareAllInputDatasets": false,
+    "exportForeignObjectsReferences": true
+  },
+  "actualContent": {
+    "includedDatasets": [
+      {
+        "name": "ExamNov2023_av_income_for_address",
+        "type": "UploadedFiles",
+        "usedTransferMethod": "UPLOAD",
+        "size": 772
+      },
+      {
+        "name": "ExamNov2023_customers",
+        "type": "UploadedFiles",
+        "usedTransferMethod": "UPLOAD",
+        "size": 64595
+      },
+      {
+        "name": "ExamNov2023_customers_joined",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 18618
+      },
+      {
+        "name": "ExamNov2023_customers_joined_prepared",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 19730
+      },
+      {
+        "name": "ExamNov2023_customers_joined_prepared_scored",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 20058
+      }
+    ],
+    "includedSavedModels": [
+      {
+        "id": "J4rLylG1",
+        "name": "Clustering on ExamNov2023_customers_joined_prepared",
+        "size": 300761
+      }
+    ],
+    "includedManagedFolders": [],
+    "includedModelEvaluationStores": [],
+    "includedCodeStudios": [],
+    "includedLabelingTasks": [],
+    "allAnalysisData": true,
+    "insightsData": true
+  },
+  "originalProjectKey": "MIDTERM",
+  "manifestVersion": 3,
+  "generatedWithDSSVersion": "12.3.1",
+  "generatedWithDSSConfVersion": "12220",
+  "foreignObjects": [],
+  "exportedWithPlugins": [
+    {
+      "pluginId": "local-r-dev-setup",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "builtin-macros",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "code-studio-blocks",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "colorbrewer-palettes",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "k8s-metrics-utils",
+      "version": "1.0.0"
+    }
+  ],
+  "exportedWithCodeStudioTemplates": [],
+  "requiredCodeStudioTemplates": [],
+  "requiredConnections": {
+    "filesystem_managed": {
+      "name": "filesystem_managed",
+      "type": "Filesystem",
+      "isMissing": false
+    }
+  },
+  "allowedMissingConnections": [],
+  "usedCodeEnvRefs": [],
+  "allowedMissingCodeEnvs": [],
+  "hasPartitionedDataset": false
+}
